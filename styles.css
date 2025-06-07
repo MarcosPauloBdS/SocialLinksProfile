@@ -1,0 +1,64 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+    width: 100vh;
+    height: 100vh;
+}
+
+.container{
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    border-radius: 25px;
+    flex-direction: column;
+    text-align: center;
+    gap: 2px;
+    padding: 20px;
+    margin: 40px auto;
+    width: 100%;
+    max-width: 350px;
+}
+
+.AvatarText img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.AvatarText h1{
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.AvatarText h5{
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.location{
+    color: hsl(75, 94%, 57%);
+}
+
+.specification{
+    color: hsl(0, 0%, 100%);
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 8px;
+    margin: 5px;
+    padding: 10px 30%;
+    font-weight: 600;
+}
+
+.btn:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
+
